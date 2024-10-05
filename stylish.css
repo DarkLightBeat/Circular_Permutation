@@ -1,0 +1,224 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("https://i.pinimg.com/564x/af/a2/18/afa2184115728b84d22f27382246538b.jpg");
+  background-size: cover; /* Change this line */
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+  
+  .tables-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .table1 {
+    width: 200px;
+    height: 300px; /* Increased height from 200px to 300px */
+    margin: 20px;
+    left: 50px;
+    bottom: 100px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    overflow-y: auto; /* Added overflow-y: auto to enable scrolling */
+  }
+  
+  .table2 {
+    width: 200px;
+    height: 300px; /* Increased height from 200px to 300px */
+    margin: 20px;
+    left: 315px;
+    bottom: 100px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    overflow-y: auto; /* Added overflow-y: auto to enable scrolling */
+  }
+  
+  .table3 {
+    width: 200px;
+    height: 300px; /* Increased height from 200px to 300px */
+    margin: 20px;
+    left: 575px;
+    bottom: 100px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    overflow-y: auto; /* Added overflow-y: auto to enable scrolling */
+  }
+  
+  .table4 {
+    width: 200px;
+    height: 300px; /* Increased height from 200px to 300px */
+    margin: 20px;
+    left: 835px;
+    bottom: 100px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    overflow-y: auto; /* Added overflow-y: auto to enable scrolling */
+  }
+  
+  .table5 {
+    width: 200px;
+    height: 300px; /* Increased height from 200px to 300px */
+    margin: 20px;
+    left: 1100px;
+    bottom: 100px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    overflow-y: auto; /* Added overflow-y: auto to enable scrolling */
+  }
+  
+  .groups-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .group1 {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    left: 50px;
+    bottom: 450px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+  }
+  
+  .group2 {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    left: 315px;
+    bottom: 450px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+  }
+  
+  .group3 {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    left: 575px;
+    bottom: 450px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+  }
+  
+  .group4 {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    left: 835px;
+    bottom: 450px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+  }
+  
+  .group5 {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    left: 1100px;
+    bottom: 450px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+  }
+  
+  .table1, .table2, .table3, .table4, .table5 {
+    background-color: rgba(255, 255, 255, 0.600);
+  }
+  
+  .group1, .group2, .group3, .group4, .group5 {
+    background-color: rgba(255, 255, 255, 0.600);
+  }
+
+  #start-rotation {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translateX(-50%);
+  }
+  
+  #start-rotation:hover {
+    background-color: #3e8e41;
+  }
