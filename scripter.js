@@ -21,17 +21,21 @@ function rotateGroups() {
     group.style.left = groupLeftValues[newIndex];
   });
 
-  currentGroupIndex++;
+  currentGroupIndex += groups.length;
 
-  if (currentGroupIndex >= groups.length) {
-    clearInterval(rotationIntervalId);
-    alert('Rotation has ended');
+  if (currentGroupIndex >= groups.length * groups.length) {
+    stopRotation();
   }
 }
 
 function startRotation() {
   alert('Rotation has started');
   rotationIntervalId = setInterval(rotateGroups, rotationInterval * 1000);
+}
+
+function stopRotation() {
+  clearInterval(rotationIntervalId);
+  alert('Rotation has stopped');
 }
 
 startRotationButton.addEventListener('click', startRotation);
