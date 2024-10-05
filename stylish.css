@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
   background-image: url("https://i.pinimg.com/564x/af/a2/18/afa2184115728b84d22f27382246538b.jpg");
-  background-size: cover; /* Change this line */
+  background-size: cover;
   background-position: center;
   height: 100vh;
   margin: 0;
@@ -17,7 +17,7 @@ body {
   
   .table1 {
     width: 200px;
-    height: 300px; /* Increased height from 200px to 300px */
+    height: 300px; 
     margin: 20px;
     left: 50px;
     bottom: 100px;
@@ -30,12 +30,12 @@ body {
     background-size: cover;
     background-position: center;
     text-align: center;
-    overflow-y: auto; /* Added overflow-y: auto to enable scrolling */
+    overflow-y: auto;
   }
   
   .table2 {
     width: 200px;
-    height: 300px; /* Increased height from 200px to 300px */
+    height: 300px; 
     margin: 20px;
     left: 315px;
     bottom: 100px;
@@ -48,12 +48,12 @@ body {
     background-size: cover;
     background-position: center;
     text-align: center;
-    overflow-y: auto; /* Added overflow-y: auto to enable scrolling */
+    overflow-y: auto; 
   }
   
   .table3 {
     width: 200px;
-    height: 300px; /* Increased height from 200px to 300px */
+    height: 300px; 
     margin: 20px;
     left: 575px;
     bottom: 100px;
@@ -66,12 +66,12 @@ body {
     background-size: cover;
     background-position: center;
     text-align: center;
-    overflow-y: auto; /* Added overflow-y: auto to enable scrolling */
+    overflow-y: auto; 
   }
   
   .table4 {
     width: 200px;
-    height: 300px; /* Increased height from 200px to 300px */
+    height: 300px; 
     margin: 20px;
     left: 835px;
     bottom: 100px;
@@ -84,7 +84,7 @@ body {
     background-size: cover;
     background-position: center;
     text-align: center;
-    overflow-y: auto; /* Added overflow-y: auto to enable scrolling */
+    overflow-y: auto;
   }
   
   .table5 {
@@ -102,7 +102,7 @@ body {
     background-size: cover;
     background-position: center;
     text-align: center;
-    overflow-y: auto; /* Added overflow-y: auto to enable scrolling */
+    overflow-y: auto; 
   }
   
   .groups-container {
