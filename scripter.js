@@ -8,9 +8,11 @@ const rotationInterval = 10;
 let currentGroupIndex = 0;
 
 const groupLeftValues = [];
+const originalGroupLeftValues = [];
 groups.forEach((group, index) => {
   const styles = window.getComputedStyle(group);
   groupLeftValues.push(styles.left);
+  originalGroupLeftValues.push(styles.left);
 });
 
 function rotateGroups() {
@@ -21,21 +23,25 @@ function rotateGroups() {
     group.style.left = groupLeftValues[newIndex];
   });
 
-  currentGroupIndex += groups.length;
+  currentGroupIndex++;
 
-  if (currentGroupIndex >= groups.length * groups.length) {
-    stopRotation();
+  let allGroupsAtOriginalPositions = true;
+  groups.forEach((group, index) => {
+    const styles = window.getComputedStyle(group);
+    if (styles.left !== originalGroupLeftValues[index]) {
+      allGroupsAtOriginalPositions = false;
+    }
+  });
+
+  if (allGroupsAtOriginalPositions) {
+    clearInterval(rotationIntervalId);
+    alert('Rotation has stopped');
   }
 }
 
 function startRotation() {
   alert('Rotation has started');
   rotationIntervalId = setInterval(rotateGroups, rotationInterval * 1000);
-}
-
-function stopRotation() {
-  clearInterval(rotationIntervalId);
-  alert('Rotation has stopped');
 }
 
 startRotationButton.addEventListener('click', startRotation);
