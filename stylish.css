@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-image: url("https://t3.ftcdn.net/jpg/04/25/65/24/360_F_425652429_A311W0NFAGrxzsTtmOQEkczAl3d3GlYG.jpg");
+  background-image: url("https://i.pinimg.com/564x/af/a2/18/afa2184115728b84d22f27382246538b.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -198,11 +198,11 @@ body {
   }
   
   .table1, .table2, .table3, .table4, .table5 {
-    background-color: rgba(255, 255, 255, 0.600);
+    background-color: rgba(255, 255, 255, 0.80);
   }
   
   .group1, .group2, .group3, .group4, .group5 {
-    background-color: rgba(255, 255, 255, 0.600);
+    background-color: rgba(255, 255, 255, 0.80);
   }
 
   #start-rotation {
