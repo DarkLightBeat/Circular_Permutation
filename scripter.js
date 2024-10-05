@@ -1,4 +1,3 @@
-
 const tables = document.querySelectorAll('.table1, .table2, .table3, .table4, .table5');
 const groups = document.querySelectorAll('.group1, .group2, .group3, .group4, .group5');
 
@@ -23,10 +22,18 @@ function rotateGroups() {
   });
 
   currentGroupIndex++;
+
+  if (currentGroupIndex >= groups.length) {
+    clearInterval(rotationIntervalId);
+    alert('Rotation has ended');
+  }
 }
 
 function startRotation() {
-  setInterval(rotateGroups, rotationInterval * 1000);
+  alert('Rotation has started');
+  rotationIntervalId = setInterval(rotateGroups, rotationInterval * 1000);
 }
 
 startRotationButton.addEventListener('click', startRotation);
+
+let rotationIntervalId;
