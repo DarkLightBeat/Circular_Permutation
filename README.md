@@ -1,9 +1,19 @@
-<h1> Student Rotation System Documentation </h1>
+<h1> Group of Student Rotation System Documentation </h1>
 
 <h2> Overview </h2>
 
 <p> The Circular Rotation System is a web-based application that simulates a circular rotation of groups around a set of tables. The system is designed to demonstrate a circular permutation algorithm, where each group moves to the next table in a circular fashion. </p>
 <p> It's purpose is to show where a group of students have to answer a one question in a different tables using circulation it will move counter-clockwise until all the group of students have already been on that table </p>
+
+![](1.JPG)
+
+<p> The program will tell you that the rotation has started and it will also tell you when the rotation has stopped. </p>
+<p> In the first rotation, it will read first the program until it count down to the given time every interval of rotation. </p>
+
+![](2.JPG)      ![](3.JPG)
+
+<p> const rotationInterval = 10; </p>
+<p> In this part of javascript, you can change the time of interval of how many seconds that every group will answer the question </p>
 
 <h2> System Components </h2>
 
@@ -25,6 +35,15 @@ where:
 <ol> currentIndex is the current index of the group </ol>
 <ol> index is the index of the group in the groups array </ol>
 <ol> groups.length is the number of groups in the system </ol>
+
+<h3> This how the rotation works: </h3>
+
+![](4.JPG)
+![](5.JPG)
+![](6.JPG)
+![](7.JPG)
+![](8.JPG)
+
 
 
 <h2> Code Logic </h2>
